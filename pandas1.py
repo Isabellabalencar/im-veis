@@ -3,7 +3,7 @@ import pandas as pd
 
 def importar_dados():
     # URL corrigida
-    url_dados = 'https://raw.githubusercontent.com/alura-cursos/pandas-conhecendo-a-biblioteca/main/base-de-dados/aluguel.csv'
+    url_dados = 'aluguel.csv'
     leitura_dados = pd.read_csv(url_dados, sep=";")
     return leitura_dados
 
