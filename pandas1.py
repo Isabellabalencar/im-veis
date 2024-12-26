@@ -2,8 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 def importar_dados():
-    # URL corrigida
-    url_dados = 'aluguel.csv'
+    url_dados = 'imoveis.csv'
     leitura_dados = pd.read_csv(url_dados, sep=";")
     return leitura_dados
 
